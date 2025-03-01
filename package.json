@@ -4,6 +4,9 @@
   "scripts": {
     "start": "node downloader.js"
   },
+  "repository": {
+    "url": "https://github.com/kazuyakuza/s3-zip.git"
+  },
   "license": "ISC",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.744.0",
