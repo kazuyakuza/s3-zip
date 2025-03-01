@@ -1,0 +1,17 @@
+{
+  "name": "s3-zip",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node downloader.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.744.0",
+    "archiver": "^7.0.1",
+    "fs": "^0.0.1-security",
+    "inquirer": "^12.4.1"
+  },
+  "engines": {
+    "node": "23.6.0"
+  }
+}
